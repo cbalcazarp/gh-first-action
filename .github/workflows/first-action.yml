@@ -13,4 +13,4 @@ jobs:
 
       - name: Print goodbye
         run: |
-        echo "Goodbye, World! This is my first GitHub Action."
+          echo "Goodbye, World! This is my first GitHub Action."
