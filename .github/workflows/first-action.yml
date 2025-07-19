@@ -7,7 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print greeting
-        run: echo "Hello, World! This is my first GitHub Action."
+        run: |
+          echo "Hello, World! This is my first GitHub Action."
+          echo "I'd like to say hello to everyone who is reading this."
 
       - name: Print goodbye
-        run: echo "Goodbye, World! This is my first GitHub Action."
+        run: |
+        echo "Goodbye, World! This is my first GitHub Action."
