@@ -1,0 +1,13 @@
+name: First Workflow
+description: This is a simple GitHub Actions workflow to build a Node.js project.
+on: workflow_dispatch
+
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hello, World! This is my first GitHub Action."
+
+      - name: Print goodbye
+        run: echo "Goodbye, World! This is my first GitHub Action."
