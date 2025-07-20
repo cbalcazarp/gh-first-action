@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get runner version
-        run: echo "cat /etc/os-release"
+        run: cat /etc/os-release
