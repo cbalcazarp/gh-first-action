@@ -1,0 +1,9 @@
+name: Second Workflow
+description: This is a simple GitHub Actions workflow to build a Node.js project.
+on: workflow_dispatch
+jobs:
+  runner-version:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get runner version
+        run: echo "cat /etc/os-release"
