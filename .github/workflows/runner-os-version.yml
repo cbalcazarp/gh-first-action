@@ -1,4 +1,4 @@
-name: Second Workflow
+name: Runner OS Version Check
 description: This is a simple GitHub Actions workflow to build a Node.js project.
 on: workflow_dispatch
 jobs:
